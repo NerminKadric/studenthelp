@@ -1,0 +1,79 @@
+.last-announcement {
+    margin-top: 55px;
+    height: 250px;
+    width: 100%;
+}
+.report {
+    /* margin-top: 55px; */
+    height: 300px;
+    width: 80%;
+}
+.submit-report {
+    margin-top: 25px;
+    width: 100%;
+}
+.feedback {
+    height: 100px;
+    width: 150px;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: #dee2e6;
+}
+.feedback-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+}
+#report-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    /* height: 350px; */
+    width: 90%;  
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dee2e6;
+}
+#announcement-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 250px;
+    width: 90%;
+}
+#feedback-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 90%;  
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dee2e6;
+}
+.innerIntroducingScreen{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.title{
+    margin: 0 auto;
+    font-size: 24px;
+}
+.problem-reports-table {
+    margin-left: 24px;
+    margin-top: 24px;
+    overflow: hidden;
+    max-height: inherit;
+}
+.announcement{
+    margin-left: 25px;
+    margin-top: 10px;
+}

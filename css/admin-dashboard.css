@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+#report-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-height: 340px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dee2e6;
+}
+
+.alerts{
+    margin: 0 auto;
+}
+.errors {
+    color: red;
+}
+.success{
+    color: green;
+}
+.report-form {
+    width: 80%;
+    height: 165px;
+}
+.problem-reports-table {
+    width: 80%;
+    height: 165px;
+}
+.submit-report{
+    width: 100%;
+}
